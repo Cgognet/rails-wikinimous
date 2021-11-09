@@ -1,3 +1,45 @@
 // Place all the styles related to the articles controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: lightgrey;
+  padding: 0px 10px;
+  margin-right: -15px;
+  margin-left: -15px;
+  margin-top: -auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.article {
+    font-family: Roboto;
+    font-size: 80%;
+    display: block;
+    box-sizing: border-box;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: justify;
+    width : 800px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: justify;
+    margin: 0 0 10px;
+    font-size: medium;
+}
+
+h1 {
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

@@ -1,5 +1,5 @@
 <ul>
 <%@articles.each do |article|%>
-<li><%=article.title%> <%=article.content%></li>
+<li><%=link_to article.title, show_articles_path(article["id"])%> <%=article.content%></li>
 <%end%>
 </ul>
